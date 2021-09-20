@@ -14,7 +14,7 @@ namespace _20210920
             //feladat2();
             //feladat3();
             //feladat4();
-            //feladat5();
+            feladat5();
 
 
 
