@@ -13,8 +13,8 @@ namespace _20210920
             //feladat1();
             //feladat2();
             //feladat3();
-            //feladat4(); (nem müködik)
-        
+            //feladat4();
+            //feladat5();
 
 
 
@@ -23,7 +23,7 @@ namespace _20210920
             Console.ReadLine();
         }
 
-       private static void feladat1(string[] args)
+        static void feladat1()
         {
             Console.Write("Kérek egy számot!");
             double szam = Convert.ToDouble(Console.ReadLine());
@@ -37,7 +37,7 @@ namespace _20210920
                 Console.WriteLine("A {0} szám páratlan", szam);
             }
         }
-       private void feladat2(string[] args)
+        static void feladat2()
         {
            
             Console.Write("Kérek egy számot!");
@@ -52,7 +52,7 @@ namespace _20210920
                 Console.WriteLine("A {0} szám negatív", szam);
             }
         }
-       private static void feladat3(string[] args)
+        static void feladat3()
         {
             Console.Write("Kérek egy hömérsékletet!");
             double szam = Convert.ToDouble(Console.ReadLine());
@@ -66,12 +66,12 @@ namespace _20210920
                 Console.WriteLine("A {0} kint fagy", szam);
             }
         }
-       private static void feladat4(string[] args)
+        static void feladat4()
         {
             Console.Write("Kérek egy számot!");
             double szam = Convert.ToDouble(Console.ReadLine());
             Console.Clear();
-            if (szam -30== 40)
+            if (szam> -30&& szam <40)
             {
                 Console.WriteLine("A {0}szám -30 és 40 között van ", szam);
             }
@@ -79,6 +79,10 @@ namespace _20210920
             {
                 Console.WriteLine("A {0} szám nincs a -30 40 között van", szam);
             }
+        }
+        static void feladat5()
+        {
+            
         }
 
     }
