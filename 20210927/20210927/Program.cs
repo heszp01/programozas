@@ -11,15 +11,15 @@ namespace _20210927
     {
         static void Main(string[] args)
         {
-            Feladat12();
-
+            //Feladat12();
+            Feladat13();
 
 
             Console.WriteLine();
             Console.ReadLine();
         }
 
-        static void Feladat12 ()
+        static void Feladat12()
         {
             Console.WriteLine("Mondj egy hónapot!");
             string honap = Console.ReadLine();
@@ -76,6 +76,68 @@ namespace _20210927
                 default:
                     Console.WriteLine("nincs ilyen honap");
                     break;
+            }
+        }
+        static void Feladat13()
+        {
+            Console.WriteLine("Mondj egy hónapot!");
+            string honap = Console.ReadLine();
+            switch (honap)
+            {
+                case "január":
+                    Console.WriteLine("tél");
+                    break;
+
+                case "február":
+                    Console.WriteLine("tél");
+                    break;
+
+                case "március":
+                    Console.WriteLine("tavasz");
+                    break;
+
+                case "április":
+                    Console.WriteLine("tavasz");
+                    break;
+
+                case "május":
+                    Console.WriteLine("tavasz");
+                    break;
+
+                case "június":
+                    Console.WriteLine("nyár");
+                    break;
+
+                case "július":
+                    Console.WriteLine("nyár");
+                    break;
+
+                case "augusztus":
+                    Console.WriteLine("nyár");
+                    break;
+
+                case "szeptember":
+                    Console.WriteLine("ősz");
+                    break;
+
+                case "oktober":
+                    Console.WriteLine("ősz");
+                    break;
+
+                case "november":
+                    Console.WriteLine("ősz");
+                    break;
+
+                case "december":
+                    Console.WriteLine("tél");
+                    break;
+
+                default:
+                    Console.WriteLine("nincs ilyen honap");
+                    break;
+
+
+
             }
         }
     }
