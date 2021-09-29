@@ -69,6 +69,7 @@
             this.evszakbtn.TabIndex = 3;
             this.evszakbtn.Text = "Évszak";
             this.evszakbtn.UseVisualStyleBackColor = true;
+            this.evszakbtn.Click += new System.EventHandler(this.Evszakbtn_Click);
             // 
             // kilepbtn
             // 

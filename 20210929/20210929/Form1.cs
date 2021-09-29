@@ -27,5 +27,27 @@ namespace _20210929
         {
             this.Close();
         }
+
+        private void Evszakbtn_Click(object sender, EventArgs e)
+        {
+            string honap = evszaklbl.Text;
+            switch (honap)
+            {
+                case "1":
+                    evszaklbl.Text
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+        }
     }
 }
